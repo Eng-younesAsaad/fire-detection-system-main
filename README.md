@@ -1,10 +1,10 @@
-# 🔥 Real-Time Fire Detection System
+#  Real-Time Fire Detection System
 
 A deep learning-based computer vision application that detects fire in real-time using a web camera. The project implements transfer learning with **MobileNetV2** for highly efficient, lightweight, and accurate predictions, making it suitable for deployment on edge devices.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 *   **Real-Time Detection:** Live webcam feed processing with low-latency predictions.
 *   **Deep Learning Backbone:** Built on top of **MobileNetV2** (pre-trained on ImageNet) for rapid and robust feature extraction.
@@ -13,7 +13,7 @@ A deep learning-based computer vision application that detects fire in real-time
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 ├── Fire_dataset/          # Local dataset containing Fire & Non_Fire images
@@ -26,7 +26,7 @@ A deep learning-based computer vision application that detects fire in real-time
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+##  Tech Stack & Libraries
 
 *   **Deep Learning:** TensorFlow 2.x, Keras
 *   **Computer Vision:** OpenCV (for webcam capture and UI overlays)
@@ -35,7 +35,7 @@ A deep learning-based computer vision application that detects fire in real-time
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -58,7 +58,7 @@ python app.py
 
 ---
 
-## 🧠 Model Training & Performance
+##  Model Training & Performance
 
 The model was trained using **Transfer Learning** on the MobileNetV2 architecture to keep it lightweight.
 
